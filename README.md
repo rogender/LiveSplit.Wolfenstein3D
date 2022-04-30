@@ -13,7 +13,7 @@ There are 2 ways that you can install this splitter
  4. Activate the splitter by clicking the "Activate" button beside the Splitter information text
 
 **Second way (manual method):**
- 1. Download the splitter from https://github.com/rogender/LiveSplit.Wolfenstein3D/blob/master/LiveSplit.Wolfenstein3D.asl
+ 1. Download the splitter from https://github.com/rogender/LiveSplit.Wolfenstein3D/blob/main/LiveSplit.Wolfenstein3D.asl
  2. Right click Livesplit
  3. Select "Edit Layout"
  4. Click on Add (plus sign) -> Control -> Scriptable Auto Splitter
