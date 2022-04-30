@@ -60,7 +60,7 @@ split
 
 reset
 {
-    return (current.Level < old.Level) || (current.playerHealth == 0);
+    return (current.Level < old.Level) || (current.playerHealth == 0) || (current.Level == 1 && current.levelTime < old.levelTime);
 }
 
 isLoading
