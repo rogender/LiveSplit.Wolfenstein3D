@@ -1,4 +1,4 @@
-// Autosplitter for Wolfenstein 3D (now working only on ECWolf 1.1.3)
+// Autosplitter for Wolfenstein 3D (for now working only on ECWolf 1.1.3)
 //
 // SET YOUR "COMPARE AGAINST" TO (GAME TIME) BY RIGHT CLICKING ON YOUR SPLITS OR YOU WON'T SEE LOADS GETTING PAUSED !!
 //
