@@ -14,6 +14,13 @@ state("ecwolf", "ECWolf")
     int levelTime:       "ecwolf.exe", 0x289F38;
 }
 
+state("zdoom")
+{
+    byte Level:          "zdoom.exe", 0x328B04;
+    uint playerHealth:   "zdoom.exe", 0x34C5A4;
+    int levelTime:       "zdoom.exe", 0x328AE0;
+}
+
 startup
 {
     if (timer.CurrentTimingMethod == TimingMethod.RealTime)
