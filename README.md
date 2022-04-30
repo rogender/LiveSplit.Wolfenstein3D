@@ -22,5 +22,5 @@ There are 2 ways that you can install this splitter
 
 ## Features
  - Automatic splitting
- - Automatic Timer Start, Stop and Resetting, all of which can be toggled
+ - Automatic Timer Start, Splitting and Resetting, all of which can be toggled
  - Pauses on loads
