@@ -35,7 +35,7 @@ init
     {
         case 0x2AE000: version = "ECWolf"; break;
 
-        default:       version = "UNDETECTED"; MessageBox.Show(timer.Form, "Wolfenstein 3D autosplitter startup failure. \nI could not recognize what the version of the game you are running", "Wolfenstein 3D autosplitter startup failure", MessageBoxButtons.OK, MessageBoxIcon.Error); break;
+        default:       version = "UNDETECTED"; MessageBox.Show(timer.Form, "Wolfenstein 3D autosplitter startup failure. \nI could not recognize what version of the game you are running", "Wolfenstein 3D autosplitter startup failure", MessageBoxButtons.OK, MessageBoxIcon.Error); break;
     }
 }
 
