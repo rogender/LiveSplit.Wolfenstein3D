@@ -38,6 +38,7 @@ init
 {
     var mms = modules.First().ModuleMemorySize;
     print("[Wolfenstein 3D ASL] ModuleSize - 0x" + mms.ToString("X"));
+    
     switch(mms)
     {
         case 0x2AE000: version = "ECWolf"; break;
