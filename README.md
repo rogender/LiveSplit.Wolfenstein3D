@@ -1,5 +1,5 @@
 # LiveSplit.Wolfenstein3D
-Autosplitter for Wolfenstein 3D (now working only on ECWolf 1.1.3)
+Autosplitter for Wolfenstein 3D (for now working only on ECWolf 1.1.3)
 
 If you have any questions the feel free to ask them to me (Discord - keyboardcrash#7833)
 
