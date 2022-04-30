@@ -1,3 +1,12 @@
+// Autosplitter for Wolfenstein 3D (now working only on ECWolf 1.1.3)
+//
+// SET YOUR "COMPARE AGAINST" TO (GAME TIME) BY RIGHT CLICKING ON YOUR SPLITS OR YOU WON'T SEE LOADS GETTING PAUSED !!
+//
+// HOW TO USE: https://github.com/rogender/LiveSplit.Wolfenstein3D/blob/main/README.md
+// PLEASE REPORT THE PROBLEMS TO EITHER THE ISSUES SECTION IN THE GITHUB REPOSITORY ABOVE
+//
+// !! NOTE !! WORKING ONLY ON LATEST VERSION OF SOURCE PORTS
+
 state("ecwolf", "ECWolf")
 {
     byte Level:          "safemon.dll", 0x00157FB0, 0x40, 0x20, 0xBB4;
