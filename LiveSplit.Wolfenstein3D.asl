@@ -1,4 +1,4 @@
-// Autosplitter for Wolfenstein 3D (for now working only on ECWolf 1.1.3)
+// Autosplitter for Wolfenstein 3D
 //
 // SET YOUR "COMPARE AGAINST" TO (GAME TIME) BY RIGHT CLICKING ON YOUR SPLITS OR YOU WON'T SEE LOADS GETTING PAUSED !!
 //
@@ -14,7 +14,7 @@ state("ecwolf", "ECWolf")
     int levelTime:       "ecwolf.exe", 0x289F38;
 }
 
-state("zdoom")
+state("zdoom", "ZDoom")
 {
     byte Level:          "zdoom.exe", 0x328B04;
     uint playerHealth:   "zdoom.exe", 0x34C5A4;
@@ -41,6 +41,7 @@ init
     switch(mms)
     {
         case 0x2AE000: version = "ECWolf"; break;
+        case 0x46D000: version = "ZDoom"; break;
 
         default:       version = "UNDETECTED"; MessageBox.Show(timer.Form, "Wolfenstein 3D autosplitter startup failure. \nI could not recognize what version of the game you are running", "Wolfenstein 3D autosplitter startup failure", MessageBoxButtons.OK, MessageBoxIcon.Error); break;
     }
