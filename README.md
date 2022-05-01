@@ -6,7 +6,7 @@ If you have any questions the feel free to ask them to me (Discord - keyboardcra
 ## Installation
 There are 2 ways that you can install this splitter
 
-**First way (recommended) [NOT WORKING YET]:**
+**First way (recommended):**
  1. Right click Livesplit
  2. Select "Edit Splits"
  3. If the "Game Name" field is empty then fill it with "Wolfenstein 3D", otherwise skip to step 4
